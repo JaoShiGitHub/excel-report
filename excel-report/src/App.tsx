@@ -4,8 +4,20 @@ import "./App.css";
 import MeatSteamGrindingExportButton from "./components/ExportButton";
 
 const meatSteamGrindingExportData = [
-  { date: "2024-06-01" },
-  { date: "2024-06-02" },
+  {
+    firstShiftLeader: "Harry",
+    secondShiftLeader: "Hermione",
+    thirdShiftLeader: "Ron",
+    supervisor: "Dumbledore",
+
+    date: new Date().toISOString(),
+    productName: "Pad Thai",
+
+    batchNo: "B12345",
+    inspectionTime: "10/10/2025 10:00 AM",
+    expiredTime: "12:00 PM",
+    grinderOperator: "Voldemort",
+  },
 ];
 
 function App() {
